@@ -1,0 +1,10 @@
+ul li{
+	list-style-type: none;
+}
+ol li{
+	list-style-type: upper-alpha;
+}
+input{
+	border: none;
+	width: 30px;
+}

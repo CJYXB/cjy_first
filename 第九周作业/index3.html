@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/res2.css"/>
+	</head>
+	<body>
+		<div class="header">
+			<div class="warp">
+				<p><a href="javascript:;">你好，请登录</a></p>
+				<input type="text" class="en" value="请输入..." />
+				
+				<ul>
+					<li><a href="javascript:;">手机商城</a></li>
+					<li><a href="javascript:;">网站导航</a></li>
+					<li><a href="javascript:;">用户服务</a></li>
+					<li><a href="javascript:;">企业采购</a></li>
+					<li><a href="javascript:;">商场会员</a></li>
+					<li><a href="javascript:;">我的商城</a></li>
+					<li><a href="javascript:;">我的订单</a></li>
+				</ul>
+			</div>
+		</div>
+		<script type="text/javascript">
+			const p=document.querySelector('p')
+			const en=document.querySelector('input')
+			p.addEventListener('mouseenter',function(){
+				en.style.opacity=1
+				en.style.width='150px'
+			})
+			en.addEventListener('blur',function(){
+				en.style.opacity=0
+				en.style.width='0'
+			})
+		</script>
+		<div class="content">
+			<ul>
+			<li id="mz"><a href="javascript:;">美妆会场</a></li>
+			<li class="nvz"><a href="javascript:;">女装会场</a></li>
+			<li class="naz"><a href="javascript:;">男装会场</a></li>
+			<li class="ss"><a href="javascript:;">首饰会场</a></li>
+			<li class="ls"><a href="javascript:;">粮食会场</a></li>
+			<li class="jj"><a href="javascript:;">家具会场</a></li>
+			<li class="zb"><a href="javascript:;">珠宝会场</a></li>
+			<li class="dz"><a href="javascript:;">电子会场</a></li>
+			</ul>
+			
+		</div>
+	</body>
+</html>
